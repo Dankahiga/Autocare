@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="vertical"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E7E7E7"
+        app:cardUseCompatPadding="true"
+        tools:context=".MainActivity">
+
+
+
+
+
+        <!---Card 1-->
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/freshener"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/freshener" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:text="Airfresheners"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!---Card two-->
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/seat"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/seat" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SeatCovers"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Three-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/mats"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/floor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Floor Mats"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Four-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/steer"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/steer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SteerWheel covers"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Five-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cover"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cover" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car Cover"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Six-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/mount"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/mount" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CarPhone Mount"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Seven-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/gps"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="4"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gps" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car GPS System"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Card Eight-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/kit"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="4"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/kit" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Emergency Kit"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+            <!--Card Nine-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/charger"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="5"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/charger" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car Charger"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+            <!--Card Ten-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/napkins"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="5"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/napkins" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Napkins"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--Card Eleven-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/jack"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="6"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car Jack"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+            <!--Card Twelve-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/shiner"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="6"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shiner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dashboard Shiner"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+            <!--Card Thirteen-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/aid"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="0"
+            android:layout_row="7"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/aid" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FirstAid Kit"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+            <!--Card Fourteen-->
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/bt"
+            android:layout_width="209dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp"
+            android:layout_column="1"
+            android:layout_row="7"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/biti" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bluetooth Modulator"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</GridLayout>
+</ScrollView>

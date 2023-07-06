@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "373147560043",
+    "project_id": "apps-105dd",
+    "storage_bucket": "apps-105dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373147560043:android:bbdee53af6704ed98ea92e",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373147560043-7v0t19v4v04vpbld4jtr2nn46ouo64da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGMaog7Y9bIXLnN5O3-VIkZHVGfDj8PkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373147560043-7v0t19v4v04vpbld4jtr2nn46ouo64da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373147560043:android:4ad82ae7b223c84b8ea92e",
+        "android_client_info": {
+          "package_name": "com.example.autocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373147560043-7v0t19v4v04vpbld4jtr2nn46ouo64da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGMaog7Y9bIXLnN5O3-VIkZHVGfDj8PkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373147560043-7v0t19v4v04vpbld4jtr2nn46ouo64da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
